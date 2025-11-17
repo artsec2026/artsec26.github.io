@@ -113,6 +113,11 @@
             font-size: 0.9rem;
             border-top: 1px solid #e0e0e0;
         }
+
+        /* Scroll offset for sticky navbar */
+        html {
+            scroll-padding-top: 75px;
+        }
     </style>
 </head>
 <body>
@@ -132,6 +137,9 @@
                         <a class="nav-link" href="call.html">Call for Papers</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="program.html">Program</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#organizers">Organizers</a>
                     </li>
                 </ul>
@@ -147,7 +155,7 @@
                 <span class="badge bg-light text-dark p-3" style="font-size: 1.1rem;">May 21, 2026</span>
                 <span class="badge bg-info p-3 ms-2" style="font-size: 1.1rem;">San Francisco, CA</span>
             </p>
-            <p class="mt-3" style="font-size: 1.1rem;">Co-located with the 47th IEEE Symposium on Security and Privacy (IEEE S&P)</p>
+            <p class="mt-3" style="font-size: 1.1rem;">Co-located with the <a href="https://sp2026.ieee-security.org/index.html" target="_blank" style="color: white; text-decoration: underline;">47th IEEE Symposium on Security and Privacy (IEEE S&P)</a></p>
         </div>
     </header>
 
@@ -167,25 +175,30 @@
 
                 <section id="organizers">
                     <h2 class="section-title">Organizers</h2>
-                    <p class="mb-2"><a href="https://mosis.uga.edu/jianliu/" target="_blank"><strong>Jian Liu</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Georgia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:jianliu@uga.edu">jianliu@uga.edu</a></p>
-                    <p class="mb-2"><a href="https://www.shawnshan.com/" target="_blank"><strong>Shawn Shan</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dartmouth College&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:Shawn.Shan@dartmouth.edu">Shawn.Shan@dartmouth.edu</a></p>
-                    <p class="mb-2"><a href="https://www.emilywenger.com/" target="_blank"><strong>Emily Wenger</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duke University&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:emily.wenger@duke.edu">emily.wenger@duke.edu</a></p>
+                    <p class="mb-2"><a href="https://mosis.uga.edu/jianliu/" target="_blank"><strong>Jian Liu</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Georgia</p>
+                    <p class="mb-2"><a href="https://www.shawnshan.com/" target="_blank"><strong>Shawn Shan</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dartmouth College</p>
+                    <p class="mb-2"><a href="https://www.emilywenger.com/" target="_blank"><strong>Emily Wenger</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duke University</p>
                 </section>
 
                 <section id="steering">
                     <h2 class="section-title">Steering Committee</h2>
                     <p class="mb-2"><a href="https://people.cs.uchicago.edu/~ravenben/" target="_blank"><strong>Ben Y. Zhao</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Chicago</p>
                     <p class="mb-2"><a href="https://homes.cs.washington.edu/~yoshi/" target="_blank"><strong>Yoshi Kohno</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Georgetown University</p>
-                    <h5 class="mt-4 mb-3" style="color: var(--ieee-light);">Art Community</h5>
+                    <h5 class="mt-4 mb-3" style="color: var(--ieee-light);">Arts Community</h5>
                     <p class="mb-2"><a href="https://sarahcandersen.com/about" target="_blank"><strong>Sarah Andersen</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Illustrator and Cartoonist</p>
+                </section>
+
+                <section id="pc">
+                    <h2 class="section-title">Program Committee</h2>
+                    <p class="text-muted">To be announced</p>
                 </section>
 
                 <section id="dates">
                     <h2 class="section-title">Important Dates</h2>
                     <ul>
-                        <li><strong>Submission Deadline:</strong> February 2, 2026</li>
-                        <li><strong>Notification:</strong> February 22, 2026</li>
-                        <li><strong>Camera-ready:</strong> March 1, 2026</li>
+                        <li><strong>Paper submission deadline:</strong> February 13, 2026</li>
+                        <li><strong>Notification to authors:</strong> March 20, 2026</li>
+                        <li><strong>Camera-ready deadline:</strong> Early April, 2026</li>
                         <li><strong>Workshop Date:</strong> May 21, 2026</li>
                     </ul>
                 </section>
@@ -203,18 +216,18 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-md-4 mb-3">
-                    <img src="img/logo-ieee.jpg" alt="IEEE" style="max-height: 80px;">
+                    <img src="img/logo-ieee.jpg" alt="IEEE" style="max-height: 60px;">
                 </div>
                 <div class="col-md-4 mb-3">
-                    <img src="img/logo-ieee-cs.png" alt="IEEE Computer Society" style="max-height: 80px;">
+                    <img src="img/logo-ieee-cs.png" alt="IEEE Computer Society" style="max-height: 60px;">
                 </div>
                 <div class="col-md-4 mb-3">
-                    <img src="img/trojan.png" alt="IACR" style="max-height: 80px;">
+                    <img src="img/trojan.png" alt="IACR" style="max-height: 60px;">
                 </div>
             </div>
             <p><strong>ArtSec 2026</strong>: Workshop on Artwork Security and Provenance in the Age of AI</p>
             <p class="small mb-0">
-                Held in conjunction with <a href="https://sp2026.ieee-security.org/index.html" style="color: var(--ieee-blue);">IEEE S&P 2026</a>.
+                Co-located with the <a href="https://sp2026.ieee-security.org/index.html" style="color: var(--ieee-blue);">IEEE S&P 2026</a>.
             </p>
         </div>
     </footer>

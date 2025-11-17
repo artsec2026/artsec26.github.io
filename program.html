@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program - ArtSec 2026 | IEEE S&P Workshop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ieee-blue: #002855;
+            --ieee-light: #00629B;
+            --accent-color: #f8f9fa;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4, h5, .navbar-brand {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .navbar {
+            background-color: var(--ieee-blue);
+            padding: 1rem 0;
+        }
+        
+        .navbar-brand {
+            color: white !important;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+        .nav-link {
+            color: rgba(255,255,255,0.8) !important;
+            font-weight: 500;
+            margin-left: 15px;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: white !important;
+            text-decoration: underline;
+        }
+
+        .hero-section {
+            background: linear-gradient(rgba(0, 40, 85, 0.4), rgba(0, 40, 85, 0.4)), url('img/sf.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .hero-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            font-weight: 300;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-title {
+            color: var(--ieee-blue);
+            border-bottom: 3px solid var(--ieee-light);
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            margin-top: 40px;
+        }
+
+        .topic-header {
+            color: var(--ieee-light);
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .dates-card {
+            background-color: var(--accent-color);
+            border-left: 5px solid var(--ieee-blue);
+        }
+
+        footer {
+            background-color: #ffffff;
+            color: #333;
+            padding: 40px 0;
+            margin-top: 60px;
+            font-size: 0.9rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .alert-info {
+            background-color: #e7f3ff;
+            border-left: 4px solid var(--ieee-light);
+        }
+
+        /* Scroll offset for sticky navbar */
+        html {
+            scroll-padding-top: 80px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">ArtSec 2026</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="call.html">Call for Papers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="program.html">Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#organizers">Organizers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="hero-title" style="font-size: 4rem;">Program</h1>
+            <p class="hero-subtitle" style="font-size: 1.8rem; font-weight: 400;">ArtSec 2026: Workshop on Artwork Security and Provenance in the Age of AI</p>
+            <p class="mt-4" style="font-size: 1.3rem;">
+                <span class="badge bg-light text-dark p-3" style="font-size: 1.1rem;">May 21, 2026</span>
+                <span class="badge bg-info p-3 ms-2" style="font-size: 1.1rem;">San Francisco, CA</span>
+            </p>
+            <p class="mt-3" style="font-size: 1.1rem;">Co-located with the <a href="https://sp2026.ieee-security.org/index.html" target="_blank" style="color: white; text-decoration: underline;">47th IEEE Symposium on Security and Privacy (IEEE S&P 2026)</a></p>
+        </div>
+    </header>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                
+                <section id="program">
+                    <h2 class="section-title">Workshop Program</h2>
+                    <p class="text-muted">To be announced</p>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-4 mb-3">
+                    <img src="img/logo-ieee.jpg" alt="IEEE" style="max-height: 60px;">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="img/logo-ieee-cs.png" alt="IEEE Computer Society" style="max-height: 60px;">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="img/trojan.png" alt="IACR" style="max-height: 60px;">
+                </div>
+            </div>
+            <p><strong>ArtSec 2026</strong>: Workshop on Artwork Security and Provenance in the Age of AI</p>
+            <p class="small mb-0">
+                Co-located with the <a href="https://sp2026.ieee-security.org/index.html" style="color: var(--ieee-blue);">IEEE S&P 2026</a>.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
